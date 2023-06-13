@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Extracts"
+  DTS:DTSID="{97748DA2-B089-429F-A62F-C6064D9C0767}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=pvddw01;Initial Catalog=Extracts;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-MKT_Adobe-{97748DA2-B089-429F-A62F-C6064D9C0767}pvddw01.Extracts;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
